@@ -7,10 +7,10 @@ go-Gin 前后端分离
 - separation		项目根目录	
   - main.go:		主进程文件
   - routes.go:	路由文件
-    - /common  - database.go
-    - /controller  - UserController.go
-    - /model - model.go
-    - /utils  -  utils.go
+    - /common  - database.go      数据库
+    - /controller  - UserController.go      数据处理
+    - /model - model.go     数据结构体
+    - /utils  -  utils.go     通用函数
   - go.mod
   - go.sum
 
